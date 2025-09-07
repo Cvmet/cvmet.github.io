@@ -1,1 +1,75 @@
-
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .profile-container {
+            background: #fff;
+            max-width: 400px;
+            margin: 40px auto;
+            padding: 32px 24px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 16px;
+            border: 3px solid #0078d7;
+        }
+        h1 {
+            margin: 0 0 8px 0;
+            font-size: 2em;
+            color: #222;
+        }
+        h2 {
+            margin: 0 0 16px 0;
+            font-size: 1.2em;
+            color: #555;
+            font-weight: normal;
+        }
+        p {
+            color: #444;
+            margin-bottom: 24px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 8px;
+            color: #0078d7;
+            text-decoration: none;
+            font-size: 1.3em;
+            transition: color 0.2s;
+        }
+        .social-links a:hover {
+            color: #005fa3;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <img class="profile-img" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile Photo">
+        <h1>John Doe</h1>
+        <h2>Web Developer</h2>
+        <p>
+            Hi! I'm John, a passionate web developer with a love for building beautiful and functional websites. I enjoy learning new technologies and collaborating on exciting projects.
+        </p>
+        <div class="social-links">
+            <a href="https://github.com/cvmet" target="_blank" title="GitHub">GitHub</a>
+            <a href="https://twitter.com/meltingthestars" target="_blank" title="Twitter">Twitter</a>
+            <a href="mailto:hi@comet.com" title="Email">Email</a>
+        </div>
+    </div>
+</body>
+</html>
